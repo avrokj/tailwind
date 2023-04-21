@@ -1,9 +1,9 @@
 function myBurger() {
   var x = document.getElementById('nav');
-  if (x.className === 'nav') {
-    x.className += 'responsive';
+  if (x.className === 'nav hidden space-x-8 md:flex items-center justify-between w-full md:w-auto md:order-1') {
+    x.className -= ' hidden';
   } else {
-    x.className = 'nav'
+    x.className = 'nav hidden space-x-8 md:flex items-center justify-between w-full md:w-auto md:order-1'
   }
 }
 
