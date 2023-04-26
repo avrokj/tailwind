@@ -13,3 +13,6 @@ function myBurgerIcon(x) {
 
 const d = new Date();
 document.getElementById("year").innerHTML = d.getFullYear();
+
+var overflowContainer = document.getElementById('testing');
+overflowContainer.scrollTo((overflowContainer.offsetWidth / 2), 0);
